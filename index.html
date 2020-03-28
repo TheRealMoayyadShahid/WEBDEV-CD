@@ -1,0 +1,207 @@
+<html lang="en">
+    <head>
+        <title>Teen Road Safety</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+
+            /* Style the body */
+            body {
+              font-family: Arial, Helvetica, sans-serif;
+              margin: 0;
+            }
+
+            /* Header/logo Title */
+            .header {
+              padding: 80px;
+              text-align: center;
+              background: #1abc9c;
+              color: white;
+            }
+
+            /* Increase the font size of the heading */
+            .header h1 {
+              font-size: 40px;
+            }
+
+            /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+            .navbar {
+              overflow: hidden;
+              background-color: #333;
+              position: sticky;
+              position: -webkit-sticky;
+              top: 0;
+            }
+
+            /* Style the navigation bar links */
+            .navbar a {
+              float: left;
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 20px;
+              text-decoration: none;
+            }
+
+
+            /* Right-aligned link */
+            .navbar a.right {
+              float: right;
+            }
+
+            /* Change color on hover */
+            .navbar a:hover {
+              background-color: #ddd;
+              color: black;
+            }
+
+            /* Active/current link */
+            .navbar a.active {
+              background-color: #666;
+              color: white;
+            }
+
+            /* Column container */
+            .row {  
+              display: -ms-flexbox; /* IE10 */
+              display: flex;
+              -ms-flex-wrap: wrap; /* IE10 */
+              flex-wrap: wrap;
+            }
+
+            /* Create two unequal columns that sits next to each other */
+            /* Sidebar/left column */
+            .side {
+              -ms-flex: 30%; /* IE10 */
+              flex: 30%;
+              background-color: #f1f1f1;
+              padding: 20px;
+            }
+
+            /* Main column */
+            .main {   
+              -ms-flex: 70%; /* IE10 */
+              flex: 70%;
+              background-color: white;
+              padding: 20px;
+            }
+            
+             .center {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 50%;
+            }  
+            
+            /* Fake image, just for this example */
+            .fakeimg {
+              background-color: #CFCFCF;
+              width: 100%;
+              padding: 15px;
+            }
+
+            /* Footer */
+            .footer {
+              padding: 20px;
+              text-align: center;
+              background: #1abc9c;
+            }
+
+            /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 700px) {
+              .row {   
+                flex-direction: column;
+              }
+            }
+
+            /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+            @media screen and (max-width: 400px) {
+              .navbar a {
+                float: none;
+                width: 100%;
+              }
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="header">
+          <h1>Teen Road Safety</h1>
+          <p>A <b>How To <u>For the Daily Teen.</b></u></p>
+        </div>
+
+        <div class="navbar">
+          <a href="index.html" class="active">Home</a>
+          <a href="Stats.html">Statistics</a>
+          <a href="About.html">About</a>
+        </div>
+
+        <div class="row">
+            
+          <div class="side">
+              
+            <h2 style="text-align:center"><b><u>Associations</u></b></h2>
+            <img src="un.png" class="fakeimg" style="height:35f0px;" style="width:100px;" style="border-width: "> 
+            <div> </div>  
+              
+            <img src="Goal3.png" class="fakeimg" style="height:35f0px;" style="width:100px;" style="border-width: "><br><br>
+            <br><br>
+            <h3 style="text-align: center"><u>Our Sponsors</u></h3>
+            <img src="madd.png" class="fakeimg" style='"height:50px';><br>   
+            <img src="toronto.png" class="fakeimg" style='"height:50px';><br> 
+            <img src="police.jpg" class="fakeimg" style='"height:60px';><br> 
+            </div>
+            <div class="main">
+                
+            <h2 style="text-align: center">Welcome to the Teenagers Guide to Safe Driving</h2>
+                <img src="img_1.jpg" style="height:400px;width:700" class="center"><br>
+                <ul style = "font-family:georgia,garamond,serif">
+                    <li >According to the Insurance Institute for Highway Safety, <b>teen drivers</b> are nearly <b>3x</b> <u>more likely than older drivers to be in a fatal car crash per mile driven</u></li><br>
+
+                    <li>Studies show the <u>risk of a crash</u> is especially <b>high during the first months of having a license</b></li><br>
+
+                    <li><u>Male teens</u> are at <b>higher risk of fatal automobile collisions</b> than females</li>
+                </ul>
+
+                <br>
+                
+            <h2 style="text-align: center">UNDERSTAND THE RISKS</h2>
+            <img src="img_2.jpg" style="height:400px;width:700" class = "center"><br>
+            <ul style = "font-family:georgia,garamond,serif">
+
+                
+                    <li> Emphasize and Focus on <b>defensive driving</b></li><br>
+                
+                    <li> <u>Staying a safe distance from the car in front</u> and <b>remaining aware of what’s going on around you</b></li><br>
+                    
+                    
+                    <li><b>PUT THE BRAKES ON SPEEDING!</b> According to the NHTSA, <b>35% of male drivers between ages 15 to 20</b> who were involved in <u>fatal crashes in 2012 were speeding</u></li><br>
+                
+                    <li>The NHSTA reports that <b>more than 50%</b> of people ages 13-20 who died in car crashes in 2013<u>were not wearing a seat belt</u></li>
+                
+                </ul>
+                
+            <br>    
+                
+            <h2 style="text-align: center">PRACTICE, PRACTICE, PRACTICE</h2>
+            <img src="safedriver.jpg" style="height:400px;width:700" class = "center"><br>
+            <ul style = "font-family:georgia,garamond,serif">
+             <li>According to Service Ontario, as a teen, you can become a safer driver By spending at <u>least 30 to 50 hours on the road biweekly</u> with a <b>fully liscensed adult</b> on the passenger seat over a period of six months</li><br>
+                
+            <li>Mix it up on <u>different roads</u> at different times of day with <u>different weather and traffic conditions</u></li><br>
+            
+
+            <li><b>Limit night driving</b> until <b>you and your guiding adult are comfortable</b></li><br>   
+            </ul>
+          </div>
+        </div>
+        
+
+        <div class="footer">
+          <h1> </h1>
+        </div>
+    </body>
+</html>
